@@ -4,51 +4,92 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="This is the contact     page to Community science museum" />
+		<meta name="description" content="This is the page where to contact the Community science museum" />
 		<script src="https://kit.fontawesome.com/97c20a411c.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="/CSS/global.css" />
-        <link rel="stylesheet" href="/CSS/contac.css" />
-		<title>Community Science Center | Contact</title>
+		<link rel="stylesheet" href="/CSS/contact.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Mulish:wght@600&family=Readex+Pro&family=Roboto&display=swap" rel="stylesheet" />
+		<title>Community Science Center | Contact </title>
 	</head>
 	<body>
 		<nav>
-			<img src="/images/logo_desktop.JPG" alt="Logo" class="desktop_logo" />
-			<img src="/images/logo_phone.png" alt="Logo" class="phone_logo" />
-			<h1>Community Science Museum</h1>
-			<ul>
-				<li>Exhibitions</li>
-				<li>About us</li>
-				<li>Contact</li>
-			</ul>
+			<div class="desktop-top">
+				<div class="desktop-nav">
+					<div class="top">
+						<div class="logo-spinning">
+							<div class="spinning">
+								<a href="/index.html"><img src="/images/Top_decor_green_desktop.png" alt="A spinning white atom" /></a>
+							</div>
+							<a href="/index.html">
+								<div class="big-logo">
+									<img src="/images/logo_desktop.JPG" alt="Logo" />
+								</div>
+							</a>
+							<h1>Community Science Museum</h1>
+						</div>
+						<div class="nav-inline">
+							<a href="/html/exhibitions.html">Exhibitions</a>
+							<a href="/html/about.html">About us</a>
+							<a href="/html/contact.html">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="phone-nav">
+				<div class="logo-spinning">
+					<div class="spinning">
+						<img src="/images/Top_decor_green_phone.png" alt="A spinning white atom" />
+					</div>
+					<div class="mini-logo"><a href="/index.html"><img src="/images/logo_phone.png" alt="Logo" /></a></div>
+				</div>
+				<div class="nav-block">
+					<input type="checkbox" name="nav" id="nav" />
+					<label for="nav"><i class="fas fa-bars"></i></label>
+					<div class="nav-open">
+						<a href="/html/exhibitions.html">Exhibitions</a>
+						<a href="/html/about.html">About us</a>
+						<a href="/html/contact.html">Contact</a>
+					</div>
+				</div>
+			</div>
 		</nav>
-		<header>
-			<h1>Contact us</h1>
-		</header>
-		<main>
-			<img src="/images/contact_desktop.jpg" alt="Picture inside the museum and many different and exiting exhibitions" />
-			<img src="/images/contact_phone.png" alt="Picture inside the museum and many different and exiting exhibitions" />
-			<p>Please send us a message if there is anything you are wondering about.</p>
-			<p>If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
-			<h2>Phone</h2>
-			<p>+47 000 00 000</p>
-			<h2>Email</h2>
-			<p>Kleppelundvegen 15</p>
-			<p>4352 Kleppe</p>
-            <section>
-                <h2>Message us</h2>
-                <form action="submit.html" method="post">
-					<label for="fullname">Your full name</label>
-					<input type="text" name="fullname" id="fullname" />
-					<label for="email">Your email</label>
-					<input type="email" name="email" id="email" />
-                    <label for="subject">Subject</label>
-					<input type="text" name="subject" id="Subject" />
-					<label for="message" class="message">Message</label>
-					<textarea name="message" id="message" cols="75" rows="7"></textarea>
-					<input type="checkbox" name="submit" id="submit" />
-					<label for="submit" class="cta">Submit</label>
-            </section>
-		</main>
+		<div class="container">
+			<header>
+				<h1>Contact us</h1>
+			</header>
+			<main>
+				<section>
+					<img src="/images/contact_desktop.jpg" alt="Picture inside the museum and many different and exiting exhibitions" />
+					<p>Please send us a message if there is anything you are wondering about.</p>
+					<p>If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
+					<div class="contact-contact">
+						<h2>Phone</h2>
+						<p>+47 000 00 000</p>
+						<h2>Email</h2>
+						<ul>
+							<li>Kleppelundvegen 15</li>
+							<li>4352 Kleppe</li>
+						</ul>
+					</div>
+				</section>
+				<section class="message-us">
+					<h2>Message us</h2>
+					<form action="submit.html" method="post">
+						<label for="fullname">Your full name</label>
+						<input type="text" name="fullname" id="fullname" required />
+						<label for="email">Your email</label>
+						<input type="email" name="email" id="email" required/>
+						<label for="subject">Subject</label>
+						<input type="text" name="subject" id="Subject" required/>
+						<label for="message" class="message">Your message</label>
+						<textarea name="message" id="message" cols="75" rows="7" required></textarea>
+						<input type="submit" name="submit" id="submit" class="cta" value="Send"/>	
+				</section>
+			</main>
+		</div>
         <footer>
 			<div class="social">
 				<a href="http://www.Facebook.com/"><i class="fab fa-facebook-f"></i></a>

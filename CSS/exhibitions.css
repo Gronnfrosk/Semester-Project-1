@@ -1,0 +1,111 @@
+main {
+	background-color: white;
+}
+a:nth-child(1) {
+	text-decoration: underline;
+	color: #21552a;
+	cursor: default;
+}
+main h1 {
+	margin-top: 0;
+	padding-top: 75px;
+	padding-bottom: 15px;
+}
+h1,
+h2 {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 30px;
+}
+.container {
+	max-width: 1117px;
+	margin: auto;
+	top: 50px;
+	flex-wrap: wrap;
+	display: flex;
+	gap: 50px;
+	column-gap: 150px;
+	justify-content: center;
+	padding-bottom: 150px;
+}
+section {
+	width: 400px;
+	max-height: 255px;
+}
+.hidden-details {
+	position: relative;
+	text-align: center;
+	bottom: 102%;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	margin: auto;
+	background-color: #3e014f;
+	color: white;
+	height: 0;
+	transition: 0.5s ease;
+}
+.hidden-details i {
+	color: #eaf3ea;
+	font-size: 50px;
+}
+.hidden-details p {
+	text-align: left;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.cosmo:hover .hidden-details,
+#cosmo-click:checked ~ label .hidden-details {
+	bottom: 102%;
+	height: 210%;
+}
+.evolution:hover .hidden-details,
+#evo-click:checked ~ label .hidden-details {
+	bottom: 102%;
+	height: 190%;
+}
+.biology:hover .hidden-details,
+#biology-click:checked ~ label .hidden-details {
+	bottom: 102%;
+	height: 220%;
+}
+.robotics:hover .hidden-details,
+#ai-click:checked ~ label .hidden-details {
+	bottom: 103%;
+	height: 150%;
+}
+.ecology:hover .hidden-details,
+#ecology-click:checked ~ label .hidden-details {
+	bottom: 102%;
+	height: 205%;
+}
+#ecology-click,
+#ai-click,
+#biology-click,
+#evo-click,
+#cosmo-click {
+	display: none;
+}
+label:hover {
+	box-shadow: none;
+	color: white;
+	background: white;
+}
+.text-text {
+	width: 90%;
+}
+@media only screen and (max-width: 990px) {
+	h1 {
+		padding-top: 100px;
+	}
+	.container {
+		gap: 10px;
+	}
+	section {
+		text-align: center;
+	}
+	img {
+		max-width: 100%;
+	}
+}

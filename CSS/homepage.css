@@ -1,17 +1,10 @@
-nav,
-header,
-main,
-aside,
-footer,
-section {
-	background: #fff2ea;
-	border: 2px solid #fe6700;
-}
 nav {
 	height: 114px;
 }
 header {
-	height: 580px;
+	height: 650px;
+	background-color: white;
+	text-align: center;
 }
 footer {
 	height: 130px;
@@ -20,7 +13,78 @@ footer {
 	background: #fff;
 	min-height: 100px;
 }
-
+.vessel {
+	max-width: 1117px;
+	margin: 0 auto;
+	height: 650px;
+}
+.slider {
+	max-width: 1117px;
+	margin: 0 auto;
+	width: 100%;
+}
+.slide img {
+	max-width: 100%;
+}
+.header-detail {
+	background-color: #3e014f;
+	opacity: 0.95;
+	color: white;
+	width: 575px;
+	padding: 50px 0;
+	position: relative;
+	left: 595px;
+	top: -185px;
+}
+.explore-together {
+	top: -275px;
+	height: 220px;
+}
+.visit-us {
+	top: -181px;
+	height: 125px;
+}
+.visit-us h1,
+.passion h1 {
+	margin-top: 0;
+}
+.passion {
+	top: -246px;
+	height: 190px;
+}
+.explore-together p,
+.explore-together h1,
+.visit-us p,
+.passion p {
+	width: 430px;
+	text-align: left;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.cta-slider {
+	background-color: #3e014f;
+	color: white;
+	border-color: #3e014f;
+	border-radius: 50%;
+	width: 85px;
+	font-size: 59px;
+	cursor: pointer;
+}
+.cta-slider:hover {
+	background-color: #21552a;
+	border-color: #21552a;
+	color: white;
+}
+.slider-left {
+	top: -570px;
+	left: -500px;
+	position: relative;
+}
+.slider-right {
+	top: -570px;
+	right: -500px;
+	position: relative;
+}
 nav {
 	grid-area: nav;
 }
@@ -35,6 +99,16 @@ main {
 	grid-area: home-section-one;
 	height: 168px;
 	max-width: 833px;
+	text-align: center;
+}
+.home-section:nth-child(1) i {
+	font-size: 50px;
+	margin: 10px 40px 0 40px;
+}
+.home-section:nth-child(1):hover {
+	background-color: #21552a;
+	color: #eaf3ea;
+	cursor: pointer;
 }
 .home-section:nth-child(2) {
 	grid-area: home-section-two;
@@ -76,27 +150,279 @@ aside {
 
 aside {
 	grid-area: aside;
+	background-color: white;
 }
 footer {
+	background-color: white;
 	grid-area: footer;
 }
-
+.social {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	margin: 0 auto;
+	height: 130px;
+	gap: 20px;
+	max-width: 1117px;
+	background-image: url(../images/bottom_decor_green.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
 body {
 	display: grid;
-	grid-gap: 10px;
+	grid-gap: 15px;
 	grid-template-areas:
 		"nav nav"
 		"header header"
 		"main aside"
 		"footer footer";
 }
-
 main {
 	display: grid;
-	grid-gap: 10px;
-	padding: 10px;
+	grid-gap: 15px;
 	grid-template-areas:
 		"home-section-one home-section-one home-section-one"
 		"home-section-two home-section-three home-section-four"
 		"home-section-five home-section-six home-section-seven";
+}
+.home-section div {
+	padding: 0 15px;
+}
+#kids,
+#teachers,
+#researchers {
+	display: none;
+}
+.audience img {
+	position: relative;
+	top: -71px;
+}
+.title-title h2 {
+	position: relative;
+	top: 197px;
+	left: 13px;
+	z-index: 1;
+}
+label:hover {
+	box-shadow: none;
+	color: white;
+	background: white;
+}
+.hidden-details {
+	background-color: #3e014f;
+	color: white;
+	top: -336px;
+	position: relative;
+	z-index: 1;
+	height: 0;
+	overflow: hidden;
+	transition: 0.5s ease;
+}
+.audience:hover .hidden-details,
+#kids:checked ~ label .hidden-details,
+#teachers:checked ~ label .hidden-details,
+#researchers:checked ~ label .hidden-details {
+	height: 100%;
+}
+.hidden-details h2 {
+	font-weight: 400;
+	margin-bottom: 12px;
+	margin-top: 10px;
+}
+.hidden-details p {
+	margin-top: 12px;
+}
+.explore {
+	visibility: visible;
+	position: static;
+	margin-top: 10px;
+}
+.explore .cta {
+	margin-top: 80px;
+}
+@media only screen and (max-width: 1140px) {
+	header {
+		width: 100%;
+		height: 684px;
+	}
+	.vessel img {
+		width: 100%;
+	}
+	.header-detail {
+		top: 572px;
+		margin: 0 auto;
+		width: 100%;
+		left: 0;
+		height: 141px;
+		align-items: center;
+		position: absolute;
+	}
+	.header-detail h1 {
+		position: relative;
+		top: 20px;
+	}
+	.explore-together h1 {
+		position: relative;
+		top: -35px;
+	}
+	.explore-together p {
+		position: relative;
+		top: -45px;
+	}
+	.passion h1 {
+		position: relative;
+		top: -25px;
+	}
+	.passion p {
+		position: relative;
+		top: -30px;
+	}
+	.slider-left {
+		top: 350px;
+		left: -0px;
+		position: absolute;
+	}
+	.slider-right {
+		top: 350px;
+		right: -0px;
+		position: absolute;
+	}
+	body {
+		display: grid;
+		grid-gap: 15px;
+		grid-template-areas:
+			"nav nav"
+			"header header"
+			"main main"
+			"aside aside"
+			"footer footer";
+	}
+	main,
+	aside {
+		margin: 0 auto;
+		width: 833px;
+	}
+	.explore {
+		margin: 0 auto;
+	}
+	.explore .cta {
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 990px) {
+	body {
+		background-color: #eaf3ea;
+	}
+	header {
+		height: 670px;
+		position: relative;
+		top: -15px;
+	}
+	nav {
+		height: 60px;
+	}
+	.logo-spinning {
+	}
+	.header-detail {
+		top: 430px;
+	}
+	.slider-left {
+		top: 200px;
+	}
+	.slider-right {
+		top: 200px;
+	}
+	.home-section:nth-child(1) h2 {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 870px) {
+	.vessel {
+		margin: 0 auto;
+	}
+	.vessel img {
+		max-width: 375px;
+	}
+	main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.icons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.cta-slider {
+		width: 50px;
+		font-size: 30px;
+	}
+	.slider-left {
+		top: 75px;
+	}
+	.slider-right {
+		top: 75px;
+	}
+	header {
+		height: 435px;
+	}
+	.header-detail {
+		top: 180px;
+		margin: 0 auto;
+		left: 0;
+		height: 141px;
+		align-items: center;
+		position: absolute;
+		width: 100%;
+	}
+	.header-detail h1,
+	.header-detail p {
+		max-width: 90%;
+	}
+	.header-detail h1 {
+		margin: 0 auto;
+	}
+	.explore-together h1 {
+		margin-top: 20px;
+	}
+	.visit-us h1 {
+		text-align: left;
+		max-width: 430px;
+		margin: 0 auto 30px auto;
+		padding-left: 20px;
+	}
+	.passion h1 {
+		margin: 20px auto 20px auto;
+	}
+	main {
+		width: 100%;
+	}
+	p {
+		font-size: 16px;
+	}
+	.home-section:nth-child(1) {
+		height: 250px;
+		width: 90%;
+	}
+
+	.home-section:nth-child(1) h2 {
+		max-width: 340px;
+		text-align: center;
+		margin: 20px auto 0 auto;
+	}
+	.home-section:nth-child(1) .icons {
+		padding: 0;
+		max-width: 100%;
+		margin: 20px auto;
+	}
+	.home-section:nth-child(1) i {
+		margin: 5px 15px;
+	}
+	.social {
+		gap: 0;
+	}
 }
