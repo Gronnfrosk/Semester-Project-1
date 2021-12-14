@@ -74,8 +74,8 @@ footer {
 .info label,
 #more-info {
 	position: fixed;
-	right: 25px;
-	top: 140px;
+	right: 0px;
+	top: 110px;
 	color: #21552a;
 	background-color: white;
 	border: solid 3px #21552a;
@@ -106,7 +106,7 @@ label:hover {
 	padding: 0 20.5px;
 	height: 921px;
 	position: fixed;
-	top: 230px;
+	top: 154px;
 	right: 25px;
 	background-color: white;
 }

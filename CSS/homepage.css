@@ -101,11 +101,15 @@ main {
 	max-width: 833px;
 	text-align: center;
 }
+.home-section:nth-child(1) a {
+	text-decoration: none;
+}
 .home-section:nth-child(1) i {
 	font-size: 50px;
 	margin: 10px 40px 0 40px;
 }
-.home-section:nth-child(1):hover {
+.home-section:nth-child(1):hover,
+.home-section:nth-child(1) a:hover {
 	background-color: #21552a;
 	color: #eaf3ea;
 	cursor: pointer;
@@ -200,7 +204,7 @@ main {
 .title-title h2 {
 	position: relative;
 	top: 197px;
-	left: 13px;
+	left: 0px;
 	z-index: 1;
 }
 label:hover {
@@ -336,7 +340,6 @@ label:hover {
 	.home-section:nth-child(1) h2 {
 		width: 100%;
 	}
-
 	aside {
 		width: 100%;
 	}
