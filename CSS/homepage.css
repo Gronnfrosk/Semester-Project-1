@@ -310,7 +310,7 @@ label:hover {
 		margin: 0 auto;
 	}
 	.explore .cta {
-		margin-top: 10px;
+		margin-top: 0;
 	}
 }
 @media only screen and (max-width: 990px) {
