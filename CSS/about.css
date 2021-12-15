@@ -66,7 +66,6 @@ h3 {
 	text-align: center;
 	margin: 50px 0;
 }
-
 @media only screen and (max-width: 990px) {
 	h1 {
 		text-align: center;
@@ -94,9 +93,5 @@ h3 {
 	}
 	.explore .cta {
 		margin: 15px auto 0 auto;
-	}
-}
-@media only screen and (min-width: 991px) {
-	.info label {
 	}
 }
