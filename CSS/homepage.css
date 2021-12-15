@@ -332,7 +332,9 @@ label:hover {
 	nav {
 		height: 60px;
 	}
-	.logo-spinning {
+	.spinning {
+		left: -26px;
+		top: -45px;
 	}
 	.header-detail {
 		top: 430px;
