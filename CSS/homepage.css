@@ -100,6 +100,7 @@ main {
 	height: 168px;
 	max-width: 833px;
 	text-align: center;
+	z-index: 1;
 }
 .home-section:nth-child(1) a {
 	text-decoration: none;
@@ -223,10 +224,15 @@ label:hover {
 	transition: 0.5s ease;
 }
 .audience:hover .hidden-details,
-#kids:checked ~ label .hidden-details,
-#teachers:checked ~ label .hidden-details,
-#researchers:checked ~ label .hidden-details {
+#kids:checked ~ label .details-one,
+#teachers:checked ~ label .details-two,
+#researchers:checked ~ label .details-three {
 	height: 100%;
+}
+#kids:not(:checked) ~ label .details-one,
+#teachers:not(:checked) ~ label .details-two,
+#researchers:not(:checked) ~ label .details-three {
+	height: 0;
 }
 .hidden-details h2 {
 	font-weight: 400;
@@ -428,5 +434,11 @@ label:hover {
 	}
 	.social {
 		gap: 0;
+	}
+	label .title-title {
+		color: black;
+	}
+	.hidden-details h2 {
+		color: white;
 	}
 }

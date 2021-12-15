@@ -319,4 +319,7 @@ label:hover {
 	a:hover {
 		text-decoration: underline;
 	}
+	label:hover {
+		color: black;
+	}
 }

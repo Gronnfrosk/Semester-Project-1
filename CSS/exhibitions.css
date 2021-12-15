@@ -57,29 +57,37 @@ section {
 }
 .cosmo:hover .hidden-details,
 #cosmo-click:checked ~ label .hidden-details {
-	bottom: 102%;
+	bottom: 92%;
 	height: 210%;
 }
 .evolution:hover .hidden-details,
 #evo-click:checked ~ label .hidden-details {
-	bottom: 102%;
-	height: 190%;
+	bottom: 92%;
+	height: 200%;
 }
 .biology:hover .hidden-details,
 #biology-click:checked ~ label .hidden-details {
-	bottom: 102%;
-	height: 220%;
+	bottom: 92%;
+	height: 240%;
 }
 .robotics:hover .hidden-details,
 #ai-click:checked ~ label .hidden-details {
-	bottom: 103%;
+	bottom: 92%;
 	height: 150%;
 }
 .ecology:hover .hidden-details,
 #ecology-click:checked ~ label .hidden-details {
-	bottom: 102%;
-	height: 205%;
+	bottom: 92%;
+	height: 218%;
 }
+#ecology-click:not(:checked) ~ label .hidden-details,
+#ai-click:not(:checked) ~ label .hidden-details,
+#biology-click:not(:checked) ~ label .hidden-details,
+#evo-click:not(:checked) ~ label .hidden-details,
+#cosmo-click:not(:checked) ~ label .hidden-details {
+	height: 0;
+}
+
 #ecology-click,
 #ai-click,
 #biology-click,
@@ -107,5 +115,12 @@ label:hover {
 	}
 	img {
 		max-width: 100%;
+	}
+	.text-text {
+		margin-top: 30px;
+	}
+	footer {
+		position: relative;
+		bottom: -38px;
 	}
 }
