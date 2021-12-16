@@ -66,6 +66,17 @@ h3 {
 	text-align: center;
 	margin: 50px 0;
 }
+.explore {
+	border: solid 10px white;
+	height: 750px;
+	overflow: auto;
+}
+.cta a {
+	padding: 13px 49px;
+}
+.explore .cta {
+	margin: 15px auto 0 auto;
+}
 @media only screen and (max-width: 990px) {
 	h1 {
 		text-align: center;
@@ -87,11 +98,5 @@ h3 {
 		border: solid 10px white;
 		height: 450px;
 		overflow: auto;
-	}
-	.cta a {
-		padding: 13px 49px;
-	}
-	.explore .cta {
-		margin: 15px auto 0 auto;
 	}
 }
