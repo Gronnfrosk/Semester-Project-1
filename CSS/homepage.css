@@ -222,11 +222,7 @@ label:hover {
 #researchers:checked ~ label .details-three {
 	height: 100%;
 }
-#kids:not(:checked) ~ label .details-one,
-#teachers:not(:checked) ~ label .details-two,
-#researchers:not(:checked) ~ label .details-three {
-	height: 0;
-}
+
 .hidden-details h2 {
 	font-weight: 400;
 	margin-bottom: 12px;
@@ -337,6 +333,7 @@ label:hover {
 	.home-section:nth-child(1) h2 {
 		width: 100%;
 	}
+
 	aside {
 		width: 100%;
 	}
@@ -421,6 +418,11 @@ label:hover {
 	}
 	.home-section:nth-child(1) i {
 		margin: 5px 15px;
+	}
+	#kids:not(:checked) ~ label .details-one,
+	#teachers:not(:checked) ~ label .details-two,
+	#researchers:not(:checked) ~ label .details-three {
+		height: 0;
 	}
 	.social {
 		gap: 0;

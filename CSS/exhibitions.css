@@ -80,14 +80,6 @@ section {
 	bottom: 102%;
 	height: 218%;
 }
-#ecology-click:not(:checked) ~ label .hidden-details,
-#ai-click:not(:checked) ~ label .hidden-details,
-#biology-click:not(:checked) ~ label .hidden-details,
-#evo-click:not(:checked) ~ label .hidden-details,
-#cosmo-click:not(:checked) ~ label .hidden-details {
-	height: 0;
-}
-
 #ecology-click,
 #ai-click,
 #biology-click,
@@ -138,6 +130,13 @@ label:hover {
 	.ecology:hover .hidden-details,
 	#ecology-click:checked ~ label .hidden-details {
 		bottom: 92%;
+	}
+	#ecology-click:not(:checked) ~ label .hidden-details,
+	#ai-click:not(:checked) ~ label .hidden-details,
+	#biology-click:not(:checked) ~ label .hidden-details,
+	#evo-click:not(:checked) ~ label .hidden-details,
+	#cosmo-click:not(:checked) ~ label .hidden-details {
+		height: 0;
 	}
 	footer {
 		position: relative;
