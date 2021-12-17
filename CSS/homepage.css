@@ -239,6 +239,10 @@ label:hover {
 .explore .cta {
 	margin-top: 80px;
 }
+footer {
+	position: relative;
+	bottom: -190px;
+}
 @media only screen and (max-width: 1140px) {
 	header {
 		width: 100%;
