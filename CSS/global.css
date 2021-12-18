@@ -86,7 +86,7 @@ footer {
 	font-size: 20px;
 	font-weight: bold;
 }
-label:hover {
+.info label:hover {
 	background-color: #21552a;
 	color: white;
 	box-shadow: 5px 4px 6px rgb(158, 158, 158);

@@ -58,40 +58,61 @@
 		</nav>
 		<header>
 			<div class="vessel">
+				<input type="radio" id="slide" name="slide" />
+				<input type="radio" id="slide-one" name="slide" />
+				<input type="radio" id="slide-two" name="slide" />
+				<input type="radio" id="slide-three" name="slide" />
+				<label for="slide-three" class="left"><i class="fas fa-chevron-circle-left"></i></label>
+				<label for="slide-one" class="right"><i class="fas fa-chevron-circle-right"></i></label>
+				<label for="slide" class="left-one"><i class="fas fa-chevron-circle-left"></i></label>
+				<label for="slide-two" class="right-one"><i class="fas fa-chevron-circle-right"></i></label>
+				<label for="slide-one" class="left-two"><i class="fas fa-chevron-circle-left"></i></label>
+				<label for="slide-three" class="right-two"><i class="fas fa-chevron-circle-right"></i></label>
+				<label for="slide-two" class="left-three"><i class="fas fa-chevron-circle-left"></i></label>
+				<label for="slide" class="right-three"><i class="fas fa-chevron-circle-right"></i></label>
+
 				<section class="slider slide">
-					<img src="/images/slide_home_desktop.jpg" alt="A boy painting while using virtual reality glasses" />
-					<div class="header-detail">
-						<h1>Explore and play with over <u>1000</u> exhibitions</h1>
+					<div class="slider-content">
+						<img src="/images/slide_home_desktop.jpg" alt="A boy painting while using virtual reality glasses" />
+						<div class="header-detail">
+							<h1>Explore and play with over <u>1000</u> exhibitions</h1>
+						</div>
 					</div>
 				</section>
 				<section class="slider slide-one">
-					<img src="/images/slide1_home_desktop.jpg" alt="Bones of an elephant" />
-					<div class="header-detail explore-together">
-						<h1>Explore together</h1>
-						<p>
-							Discover the origins of life on this planet and how the species we know today have evolved our time. You can also take some time to meet a few of
-							the creatures who didn't survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.
-						</p>
+					<div class="slider-content">
+						<img src="/images/slide1_home_desktop.jpg" alt="Bones of an elephant" />
+						<div class="header-detail explore-together">
+							<h1>Explore together</h1>
+							<p>
+								Discover the origins of life on this planet and how the species we know today have evolved our time. You can also take some time to meet a few
+								of the creatures who didn't survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.
+							</p>
+						</div>
 					</div>
 				</section>
 				<section class="slider slide-two">
-					<img src="/images/slide2_home_desktop.jpg" alt="Picture of the museum outside" />
-					<div class="header-detail visit-us">
-						<h1>Visit us</h1>
-						<p>The entrance is free for all! You may also enjoy at cost our tours, shop and cafe at our Museum.</p>
+					<div class="slider-content">
+						<img src="/images/slide2_home_desktop.jpg" alt="Picture of the museum outside" />
+						<div class="header-detail visit-us">
+							<h1>Visit us</h1>
+							<p>The entrance is free for all! You may also enjoy at cost our tours, shop and cafe at our Museum.</p>
+						</div>
 					</div>
 				</section>
 				<section class="slider slide-three">
-					<img src="/images/slide3_home_desktop.jpg" alt="Picture of a hearth model" />
-					<div class="header-detail passion">
-						<h1>Ignite a lifelong passion for science</h1>
-						<p>
-							Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from
-							galaxies far away to the very building blocks of life itself.
-						</p>
+					<div class="slider-content">
+						<img src="/images/slide3_home_desktop.jpg" alt="Picture of a hearth model" />
+						<div class="header-detail passion">
+							<h1>Ignite a lifelong passion for science</h1>
+							<p>
+								Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything
+								from galaxies far away to the very building blocks of life itself.
+							</p>
+						</div>
 					</div>
 				</section>
-				<!--javaScript-->
+				<!--javaScript solution
 				<button class="cta-slider slider-left" onclick="plusDivs(-1)">&#10094;</button>
 				<button class="cta-slider slider-right" onclick="plusDivs(1)">&#10095;</button>
 				<script>
@@ -117,7 +138,7 @@
 						x[slideIndex - 1].style.display = "block";
 					}
 				</script>
-				<!--javaScript-->
+				-->
 			</div>
 		</header>
 		<main>
