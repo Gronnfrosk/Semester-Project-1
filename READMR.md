@@ -5,11 +5,14 @@
 This project is a website built to a fictional science museum. 
 
 ## Description
-The website is responsive and easy to use on a variety of devices. The website is informative and engaging. Its core target audience is primary and middle school children (7-15) and families with young children. The museum wants a website that is informative and appealing, that will attract both middle school pupils and their parents. 
+The website is responsive and easy to use on a variety of devices. The website is informative and engaging. Its core target audience is primary and middle school children (7-15) and families with young children. The museum wants a website that is informative and appealing, that will attract both middle school pupils and their parents. The site consist of 4 pages:
+- Home page
+- Contact page
+- About page
+- Exhibitions page
 
 ### The website is:
 - Consisting of only HTML and CSS
-- Consist of 4 pages
 - Following WCAG principles and DRY priciple
 - Grade(A-F): B
 
