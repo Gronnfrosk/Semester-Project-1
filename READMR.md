@@ -5,7 +5,7 @@
 This project is a website built to a fictional science museum. 
 
 ## Description
-The museum wanted a website that is informative and appealing, that will attract both middle school pupils and their parents. An interactive science museum called the Community Science Museum is suppose to be opening in your town/city. The website should be informative and engaging, but should encourage viewers to visit the museum itself. This website is also responsive and easy to use on a variety of devices.  
+The museum wanted a website that is informative and appealing, that will attract both middle school pupils and their parents. An interactive science museum called the Community Science Museum is suppose to be opening in your town/city. The website should be informative and engaging, but also encourage viewers to visit the museum itself. This website is also responsive and easy to use on a variety of devices.  
 
 The site architecture consist of 4 pages:
 1. Home page
