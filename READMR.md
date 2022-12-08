@@ -16,7 +16,6 @@ The site architecture consist of 4 pages:
 ### More about the website:
 - Consisting of only HTML and CSS.
 - Following WCAG principles and DRY principle.
-- Grade(A-F): B
 
 ## Built With
 - HTML
