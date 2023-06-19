@@ -2,12 +2,12 @@
 
 ![GameHub](https://user-images.githubusercontent.com/91615712/205651208-4258fa61-17d5-4a01-8a0d-be3d504323ca.png)
 
-This project is a website built to a fictional science museum. 
+This Noroff project is a website of a fictional science museum. 
 
 ## Description
-The museum wanted a website that is informative, appealing and that will attract both middle school pupils and their parents. An interactive science museum called the Community Science Museum is suppose to be opening in your town/city. The website is informative and engaging, but also encourage viewers to visit the museum itself. This website is also responsive and easy to use on a variety of devices.  
+The museum wanted a website that is informative, appealing and that will attract both middle school pupils and their parents. An interactive science museum called the Community Science Museum is suppose to be opening in your town/city. The website is informative and engaging, but also encourage viewers to visit the museum itself. This website should be responsive and easy to use on a variety of devices.  
 
-The site architecture consist of 4 pages:
+#### The architecture of website:
 1. Home page
 2. Contact page
 3. About page
@@ -23,11 +23,9 @@ The site architecture consist of 4 pages:
 
 ## Getting Started
 
-### Installing
+Clone the repo through github website or CLI command:
 
-1. Clone the repo:
-
-```bash
+```
 git clone https://github.com/Gronnfrosk/Semester-Project-1.git
 ```
 
