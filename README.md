@@ -2,7 +2,7 @@
 
 ![GameHub](https://user-images.githubusercontent.com/91615712/205651208-4258fa61-17d5-4a01-8a0d-be3d504323ca.png)
 
-This Noroff project is a website of a fictional science museum. 
+This Noroff project is a website of a fictional science museum. Live demo of site: https://sad-saha-78e1e6.netlify.app/
 
 ## Description
 The museum wanted a website that is informative, appealing and that will attract both middle school pupils and their parents. An interactive science museum called the Community Science Museum is suppose to be opening in your town/city. The website is informative and engaging, but also encourage viewers to visit the museum itself. This website should be responsive and easy to use on a variety of devices.  
