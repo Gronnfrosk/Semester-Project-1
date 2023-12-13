@@ -30,10 +30,10 @@ git clone https://github.com/Gronnfrosk/Semester-Project-1.git
 ```
 
 ### Live server
-For viewing project in your local browser, you can use Live Server extension in VS Code or CLI commands:
+For viewing project in your local browser, you can use Live Server extension in VS Code, or just drag the index.html file into your web browse. You can also use CLI command to install live server:
 
 1. Run ```npm i live-server``` to install all dependencies.
-2. Write ```npx live-server``` Open [http://localhost:3000](http://localhost:3000) to view project in your browser.
+
 
 
 ## Contact
